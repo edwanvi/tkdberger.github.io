@@ -1,0 +1,85 @@
+/*Credit to https://www.bettermotherfuckingwebsite.com */
+body {
+	max-width: 960px;
+	line-height:1.6;
+	text-align: center;
+	margin: auto;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #EEEEEE;
+	color:#444;
+	border: none;
+}
+table {
+	margin: auto;
+}
+td {
+	font-family: 'Roboto Condensed', Tahoma, sans-serif;
+}
+th {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	font-weight: normal;
+}
+.proof-table {
+	text-align: left;
+	border: 1px solid #444;
+	border-collapse: collapse;
+}
+header {
+	max-height: 150px;
+}
+footer {
+	max-height: 50px;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	color:#444;
+}
+h1,h2,h3 {
+	font-family: 'Oswald', Helvetica, sans-serif;
+	line-height: 1.2;
+}
+iframe {
+	border: none;
+}
+/* Because bullets are hell */
+li {
+	list-style-type: none;
+}
+.bold {
+	font-weight: bold;
+}
+a:link {
+	color: #369;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	font-style: italic;
+	color: #FF4500;
+}
+a:visited {
+	/*something something style something something */
+}
+#secretlink {
+	color:#444;
+	text-decoration: none;
+}
+#secretlink:hover {
+	text-decoration: underline;
+}
+#secretlink:active {
+	color: black;
+	font-style: italic;
+}
+.fright {
+	float: right;
+}
+.fleft {
+	float: left;
+}
+.fclear {
+	clear: both;
+}
+.whocares {
+	padding: 0px 0px 0px 0px;
+}
