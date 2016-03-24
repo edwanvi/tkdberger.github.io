@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="GRAVITY FALLS FULL_data" version="1.3.0" audacityversion="2.1.1" sel0="20.7894778544" sel1="20.7894778544" vpos="0" h="30.0227662890" zoom="102.8885869566" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="GENRE" value="Electronic"/>
+		<tag name="ARTIST" value="magi093"/>
+		<tag name="TRACKNUMBER" value="2"/>
+		<tag name="TITLE" value="Gravity Falls - Full Song"/>
+		<tag name="YEAR" value="2015"/>
+		<tag name="ALBUM" value="oh Commodore my Commodore"/>
+		<tag name="COMMENTS" value="Probably not gonna make a .wav for part 2, sorry"/>
+	</tags>
+	<wavetrack name="Gravity_Falls_Part_2" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="23.36507937">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="683358">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000aa0.au" len="175966" min="-0.437042" max="0.279602" rms="0.087292"/>
+				</waveblock>
+				<waveblock start="175966">
+					<simpleblockfile filename="e0000d2a.au" len="262144" min="-0.456696" max="0.283997" rms="0.093038"/>
+				</waveblock>
+				<waveblock start="438110">
+					<simpleblockfile filename="e0000310.au" len="245248" min="-0.531494" max="0.647064" rms="0.076466"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1030400">
+				<waveblock start="0">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="262144">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="524288">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000d45.au" len="243968" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Gravity_Falls_Part_2" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="23.36507937">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="683358">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000328.au" len="175966" min="-0.436279" max="0.279114" rms="0.087148"/>
+				</waveblock>
+				<waveblock start="175966">
+					<simpleblockfile filename="e0000bf2.au" len="262144" min="-0.455872" max="0.2836" rms="0.092886"/>
+				</waveblock>
+				<waveblock start="438110">
+					<simpleblockfile filename="e0000656.au" len="245248" min="-0.531006" max="0.646423" rms="0.07634"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1030400">
+				<waveblock start="0">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="262144">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="524288">
+					<silentblockfile len="262144"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000314.au" len="243968" min="0.0" max="0.0" rms="0.0"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Gravity_Falls" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1030400">
+				<waveblock start="0">
+					<simpleblockfile filename="e000035b.au" len="262144" min="-0.337921" max="0.987335" rms="0.083443"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000978.au" len="262144" min="-0.469971" max="0.279114" rms="0.08061"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000d02.au" len="262144" min="-0.461823" max="0.301971" rms="0.084559"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000c01.au" len="243968" min="-0.449921" max="0.294006" rms="0.088988"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Gravity_Falls" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1030400">
+				<waveblock start="0">
+					<simpleblockfile filename="e000027f.au" len="262144" min="-0.337372" max="0.985596" rms="0.0833"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000966.au" len="262144" min="-0.469116" max="0.278595" rms="0.080473"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000a30.au" len="262144" min="-0.46106" max="0.301392" rms="0.084414"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000e61.au" len="243968" min="-0.449036" max="0.293488" rms="0.088837"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
