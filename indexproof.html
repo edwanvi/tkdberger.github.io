@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Test Website Please Ignore</title>
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href = "css/style.css">
+		<script>
+			function myFunction() {
+				var c = document.getElementById("myCanvas");
+				var ctx = c.getContext("2d");
+				ctx.moveTo(50,0);
+				ctx.lineTo(0, 100);
+				ctx.stroke();
+				ctx.moveTo(0, 100);
+				ctx.lineTo(200, 100);
+				ctx.stroke();
+				ctx.moveTo(200, 100);
+				ctx.lineTo(150, 0);
+				ctx.stroke();
+				ctx.moveTo(150, 0);
+				ctx.lineTo(50, 0);
+				ctx.stroke();
+				ctx.moveTo(50, 0);
+				ctx.lineTo(50, 100);
+				ctx.stroke();
+			}
+			function labelPoints() {
+				var c = document.getElementById("myCanvas");
+				var ctx = c.getContext("2d");
+				ctx.font = "Roboto Condensed";
+				ctx.fillText("A", 0, 80);
+				ctx.fillText("B", 50, 10);
+				ctx.fillText("C", 140, 10);
+				ctx.fillText("D", 190, 80);
+				ctx.fillText("a", 100, 10);
+				ctx.fillText("b", 100, 90);
+				ctx.fillText("h", 55, 50);
+			}
+			function drawBD() {
+				var c = document.getElementById("myCanvas");
+				var ctx = c.getContext("2d");
+				ctx.moveTo(50, 0);
+				ctx.lineTo(200, 100);
+				ctx.stroke();
+			}
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<h1>Test Website Please Ignore</h1>
+			<nav>
+				<a href="index.html">Home</a> | <a href="indexvideos.html">Videos</a> | <a href="indexpics.html">Pics from /r/pics</a> | <a href="indexmusic.html">Music</a>
+			</nav>
+		</header>
+		<section>
+			<h2>Proof of Theorem 41</h2>
+			<button type="button" onclick="myFunction()">Try it</button><button type="button" onclick="labelPoints()">Label the points</button><button type="button" onclick="drawBD()">Draw line BD</button><br>
+			<canvas id="myCanvas" width="200" height="100">You pleb, not supporting the <code>&lt;canvas&gt; element.</code></canvas> 
+			<table class="proof-table" border="1">
+				<tr><th colspan="2">Given trapezoid ABCD with bases a and b and altitute h, prove the area of ABCD = 1/2h(a+b)</th></tr>
+				<tr>
+					<td>1. Trapezoid ABCD with bases a and b and altitute h</td><td>1. Given.</td>
+				</tr>
+				<tr>
+					<td>2. Draw BD to divide ABCD into two triangles.</td><td>2. Postulate 1.</td>
+				</tr>
+				<tr>
+					<td>3.&prop;&Delta;CDB = 1/2ah and &prop;&Delta;ABD = 1/2bh.</td><td>3. Theorem 39</td>
+				</tr>
+				<tr>
+					<td>4. &prop;ABCD = &prop;&Delta;CDB + &prop;&Delta;ABD</td><td>4. Postulate 8</td>
+				</tr>
+				<tr>
+					<td>5. &prop;ABCD = 1/2ah + 1/2bh = 1/2h(a + b)</td><td>5. Substitution</td>
+				</tr>
+			</table>
+			<p>This proof was made while listening to "Megalovania", by Toby Fox. (PSA: It's a bit loud.)</p>
+			<iframe width="300" height="169" src="https://www.youtube.com/embed/ZcoqR9Bwx1Y" allowfullscreen></iframe>
+		</section>
+		<footer>
+			<table>
+				<tr><th colspan="4">Test Footer</th></tr>
+				<tr>
+					<td><a href="index.html">Home</a></td>
+					<td><a href="indexvideos.html">Videos</a></td>
+					<td><a href="indexpics.html">Pics from /r/pics</a></td>
+					<td><a href="indexform.html">Feedback</a></td>
+					<td><a href="indexmusic.html">Music</a></td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+</html>
