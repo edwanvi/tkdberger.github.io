@@ -150,6 +150,10 @@ a:visited {
     100%{color:#F00; border-color:#F00;}
 }
 .rainbow_text {
+    -webkit-animation:dreem 5s linear 0s infinite;
+    animation:dreem 5s linear 0s infinite
+}
+.rainbow_text_border {
     border: 5px solid #F00;
     -webkit-animation:dreem 5s linear 0s infinite;
     animation:dreem 5s linear 0s infinite
