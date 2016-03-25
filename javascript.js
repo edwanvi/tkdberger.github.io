@@ -12,6 +12,15 @@ function youIdiot() {
 	location.assign("ruse.html");
 }
 
+function fight() {
+    //send the user...somewhere.
+    location.assign("http://reddit.com/r/fitemeirl");
+}
+
+function mercy() {
+    location.assign("index.html");
+}
+
 function bodyInit() {
 	document.getElementById("nav").setAttribute("colspan", numberOfNavLinks);
 	//alert("My body is ready");

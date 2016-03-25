@@ -9,6 +9,12 @@ body {
 	color:#444;
 	border: none;
 }
+@font-face {
+    font-family: "8bitoperator JVE Regular";
+    src:url("8bitoperator_jve.eot?") format("eot"), url("8bitoperator_jve.woff") format("woff"), url("8bitoperator_jve.ttf") format("truetype"), url("8bitoperator_jve.svg#8bitoperator-JVE") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
 table {
 	margin: auto;
 	text-align: center;
@@ -98,4 +104,21 @@ a:visited {
 #ruse:active {
 	font-style: italic;
 	color: #FF4500;
+}
+#script {
+    border: 3px solid white;
+    font-family: "8bitoperator JVE Regular";
+    background-color: black;
+    font-size: 25px;
+    margin: auto;
+}
+.dialog {
+    text-align:left;
+}
+.dialog:before {
+    content: "*"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+}
+.encounterButton {
+    padding: 5px;
 }
