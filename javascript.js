@@ -7,10 +7,11 @@ function helloworld() {
 	alert("This is what happens when I learn javascript.");
 }
 function youIdiot() {
-	alert("* Y O U   I D I O T .");
 	audio.play();
-	return false;
+	alert("* Y O U   I D I O T .");
+	location.assign("ruse.html");
 }
+
 function bodyInit () {
 	document.getElementById("nav").setAttribute("colspan", numberOfNavLinks);
 	//alert("My body is ready");
