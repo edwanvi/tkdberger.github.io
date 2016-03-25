@@ -88,3 +88,14 @@ a:visited {
 	color: #FFFFFF;
 	text-align: center;
 }
+#ruse {
+    color: #369;
+	text-decoration: none;
+}
+#ruse:hover {
+	text-decoration: underline;
+}
+#ruse:active {
+	font-style: italic;
+	color: #FF4500;
+}
