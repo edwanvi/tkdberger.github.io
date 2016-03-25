@@ -7,10 +7,9 @@
 		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href = "css/style.css">
-		<script type="text/javascript" src="javascript.js"></script>
 	</head>
 
-	<body>
+	<body onload="bodyInit()">
 		<header>
 			<h1>Test Website Please Ignore</h1>
 			<nav>
@@ -19,12 +18,12 @@
 		</header>
 		<section>
 				<p>
-					<a href = "404.html" onclick="alert('* Y O U   I D I O T .'); return false;">FREE SH*T LOL</a>
+					<a href = "404.html" onclick="youIdiot()">FREE SH*T LOL</a>
 				</p>
 			</section>
 		<footer>
 			<table>
-				<tr><th colspan="5">Test Footer</th></tr>
+				<tr><th id="nav">Test Footer</th></tr>
 				<tr>
 					<td><a href="index.html">Home</a></td>
 					<td><a href="indexvideos.html">Videos</a></td>
@@ -34,5 +33,6 @@
 				</tr>
 			</table>
 		</footer>
+	<script type="text/javascript" src="javascript.js"></script>
 	</body>
 </html>
