@@ -11,14 +11,53 @@ function youIdiot() {
 	alert("* Y O U   I D I O T .");
 	location.assign("ruse.html");
 }
+//ruse fight scene
 
 function fight() {
     //send the user...somewhere.
     location.assign("http://reddit.com/r/fitemeirl");
 }
-
 function mercy() {
+    //send user home
     location.assign("index.html");
+}
+function call() {
+    clearElement("dialogContainer");
+    var dialogBox = document.getElementById("dialogContainer");
+    var newLine = document.createElement("li");
+    var whatToSay = document.createTextNode("You called for help...");
+    newLine.appendChild(whatToSay);
+    newLine.setAttribute("class", "dialog");
+    dialogBox.appendChild(newLine);
+    //////////////////////////////
+    newLine = document.createElement("li");
+    whatToSay = document.createTextNode("But nobody came.");
+    newLine.appendChild(whatToSay);
+    newLine.setAttribute("class", "dialog");
+    dialogBox.appendChild(newLine);
+    /////////////////////////////
+    window.setTimeout(keepCruising, 5000);
+}
+function eat() {
+    clearElement("dialogContainer");
+    var dialogBox = document.getElementById("dialogContainer");
+    var newLine = document.createElement("li");
+    var whatToSay = document.createTextNode("You ate something...this doesn't seem wise at the moment.");
+    newLine.appendChild(whatToSay);
+    newLine.setAttribute("class", "dialog");
+    dialogBox.appendChild(newLine);
+    //////////////////////////////
+    window.setTimeout(keepCruising, 5000);
+    /////////////////////////////
+}
+function keepCruising() {
+    clearElement("dialogContainer");
+    var dialogBox = document.getElementById("dialogContainer");
+    var newLine = document.createElement("li");
+    var whatToSay = document.createTextNode("The ruse cruise continues.");
+    newLine.appendChild(whatToSay);
+    newLine.setAttribute("class", "dialog");
+    dialogBox.appendChild(newLine);
 }
 
 function bodyInit() {
@@ -42,4 +81,12 @@ function humanSigh(){
     while (node.hasChildNodes()) {
         node.removeChild(node.lastChild);
     }
+}
+//utility function: remove all children of an element
+function clearElement(id) {
+    node = document.getElementById(id);
+    while (node.hasChildNodes()) {
+        node.removeChild(node.lastChild);
+    }
+    return true;
 }
