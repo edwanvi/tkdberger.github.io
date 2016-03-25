@@ -9,12 +9,14 @@ body {
 	color:#444;
 	border: none;
 }
+/*import undertale battle box font.*/
 @font-face {
     font-family: "8bitoperator JVE Regular";
     src:url("8bitoperator_jve.eot?") format("eot"), url("8bitoperator_jve.woff") format("woff"), url("8bitoperator_jve.ttf") format("truetype"), url("8bitoperator_jve.svg#8bitoperator-JVE") format("svg");
     font-weight:normal;
     font-style:normal;
 }
+/*Table styling for the navigation box.*/
 table {
 	margin: auto;
 	text-align: center;
@@ -26,11 +28,13 @@ th {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	font-weight: normal;
 }
+/*Special table style for that proof page*/
 .proof-table {
 	text-align: left;
 	border: 1px solid #444;
 	border-collapse: collapse;
 }
+/*Header and footer styles*/
 header {
 	max-height: 150px;
 }
@@ -43,6 +47,7 @@ h1,h2,h3 {
 	font-family: 'Oswald', Helvetica, sans-serif;
 	line-height: 1.2;
 }
+/*youtube embeds*/
 iframe {
 	border: none;
 }
@@ -50,9 +55,11 @@ iframe {
 li {
 	list-style-type: none;
 }
+/*PRETTY F*CKING SELF-EXPLANATORY*/
 .bold {
 	font-weight: bold;
 }
+/*I wanted fancy links. I made fancy links.*/
 a:link {
 	color: #369;
 	text-decoration: none;
@@ -67,6 +74,7 @@ a:active {
 a:visited {
 	/*something something style something something */
 }
+/*Secret easter eggy link*/
 #secretlink {
 	color:#444;
 	text-decoration: none;
@@ -78,6 +86,7 @@ a:visited {
 	color: black;
 	font-style: italic;
 }
+/*float right and left*/
 .fright {
 	float: right;
 }
@@ -87,13 +96,12 @@ a:visited {
 .fclear {
 	clear: both;
 }
-.whocares {
-	padding: 0px 0px 0px 0px;
-}
+/*404.html styles*/
 .ahcrap {
 	color: #FFFFFF;
 	text-align: center;
 }
+/*IT'S AN ELABORATE RUSE I TELL YOU*/
 #ruse {
     color: #369;
 	text-decoration: none;
@@ -106,7 +114,7 @@ a:visited {
 	color: #FF4500;
 }
 #script {
-    border: 3px solid white;
+/*the div that holds the dialog on ruse.html*/
     font-family: "8bitoperator JVE Regular";
     background-color: black;
     font-size: 25px;
@@ -121,4 +129,28 @@ a:visited {
 }
 .encounterButton {
     padding: 5px;
+}
+/*Why in [REDACTED]'s name not*/
+@-webkit-keyframes dreem {
+    0%{color:#F00; border-color:#F00;}
+    17%{color:#FF0; border-color:#FF0;}
+    33%{color:#0F0; border-color:#0F0;}
+    50%{color:#0FF; border-color:#0FF;}
+    67%{color:#00F; border-color:#00F;}
+    84%{color:#F0F; border-color:#F0F;}
+    100%{color:#F00; border-color:#F00;}
+}
+@keyframes dreem{
+    0%{color:#F00; border-color:#F00;}
+    17%{color:#FF0; border-color:#FF0;}
+    33%{color:#0F0; border-color:#0F0;}
+    50%{color:#0FF; border-color:#0FF;}
+    67%{color:#00F; border-color:#00F;}
+    84%{color:#F0F; border-color:#F0F;}
+    100%{color:#F00; border-color:#F00;}
+}
+.rainbow_text {
+    border: 5px solid #F00;
+    -webkit-animation:dreem 5s linear 0s infinite;
+    animation:dreem 5s linear 0s infinite
 }
