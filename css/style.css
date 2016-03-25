@@ -11,6 +11,7 @@ body {
 }
 table {
 	margin: auto;
+	text-align: center;
 }
 td {
 	font-family: 'Roboto Condensed', Tahoma, sans-serif;
@@ -82,4 +83,8 @@ a:visited {
 }
 .whocares {
 	padding: 0px 0px 0px 0px;
+}
+.ahcrap {
+	color: #FFFFFF;
+	text-align: center;
 }
