@@ -131,6 +131,7 @@ a:visited {
     font-family: "Hachicro";
     font-size: 30px;
     background-color: black;
+    color: red;
 }
 .dialog {
     text-align:left;

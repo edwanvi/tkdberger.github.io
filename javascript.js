@@ -16,7 +16,22 @@ function fight() {
         //send the user...somewhere.
         var attackPower = Math.floor((Math.random() * 25) + 1);
         ruseHealth = ruseHealth - attackPower;
-        isPlayerTurn = false;
+        var outputBox = document.getElementById("magicBox");
+        magicBox.innerHTML = "9999";
+        //////////////////////////////
+        clearElement("dialogContainer");
+        var dialogBox = document.getElementById("dialogContainer");
+        var newLine = document.createElement("li");
+        var whatToSay = document.createTextNode("You won!");
+        newLine.appendChild(whatToSay);
+        newLine.setAttribute("class", "dialog");
+        dialogBox.appendChild(newLine);
+        //////////////////////////////
+        newLine = document.createElement("li");
+        whatToSay = document.createTextNode("Or was that just another ruse..?");
+        newLine.appendChild(whatToSay);
+        newLine.setAttribute("class", "dialog");
+        dialogBox.appendChild(newLine);
     }
 }
 function mercy() {
@@ -73,7 +88,6 @@ function keepCruising() {
 
 function aiTurn() {
     //nothing as of yet
-    alert("noai");
     isPlayerTurn = true;
     var dialogBox = document.getElementById("dialogContainer");
     var newLine = document.createElement("li");
