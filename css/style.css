@@ -16,6 +16,13 @@ body {
     font-weight:normal;
     font-style:normal;
 }
+/* undertale dmg font */
+@font-face {
+    font-family: "Hachicro";
+    src: url("Hachicro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 /*Table styling for the navigation box.*/
 table {
 	margin: auto;
@@ -119,6 +126,11 @@ a:visited {
     background-color: black;
     font-size: 25px;
     margin: auto;
+}
+#magicBox {
+    font-family: "Hachicro";
+    font-size: 30px;
+    background-color: black;
 }
 .dialog {
     text-align:left;
