@@ -19,7 +19,7 @@ body {
 /* undertale dmg font */
 @font-face {
     font-family: "Hachicro";
-    src: url("Hachicro.ttf") format("truetype");
+    src: url("hachicro.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
