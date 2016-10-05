@@ -1,0 +1,10 @@
+/* A css file full of styles for basic things */
+
+.codeblock {
+  /*for blocks of code*/
+  font-family: "Courier New", Courier, monospace;
+  /* background-color: black; */
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
