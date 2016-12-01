@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/magi093
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tkdberger.github.io
+  * I am magi093 (https://keybase.io/magi093) on keybase.
+  * I have a public key with fingerprint DEF8 CB66 8630 7C0E 164A  20B6 198F 389C 3C38 67EF
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101d7d0b76332507e4a813ca5f232079271d0bea1851e0f9a986c116da7b08113e60a",
+            "fingerprint": "def8cb6686307c0e164a20b6198f389c3c3867ef",
+            "host": "keybase.io",
+            "key_id": "198f389c3c3867ef",
+            "kid": "0101d7d0b76332507e4a813ca5f232079271d0bea1851e0f9a986c116da7b08113e60a",
+            "uid": "f855d35286b223789d13303d3ee13d19",
+            "username": "magi093"
+        },
+        "service": {
+            "hostname": "tkdberger.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1480626885,
+    "expire_in": 157680000,
+    "prev": "cba17c6c6b5955126fd956fd748f07f842c3aa2256c06dd95ad11a643187cfe0",
+    "seqno": 15,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkl1sTEEUx3fbqlSKhgchnu6Lsk0zc2fv3LmLREN9q4+UNvqw5t6Zu3uzunfd
+vVuaVqPqgS5hic8SHxFCSIQogmhTuhVpRBr1TQSJjTQeRPRJzS3ePJqHmcw5//9v
+zjmZfePzfXn+qXvJ8Tkk8tX/KKf7auftf9Ik6TZrlEJNUoyPHnwj40k3HLOYFJIA
+BJCpDOgqRkhWgMqDlEBkUMWUkQxUTVahyHIKiQI5MDWqEWxAiBlVdUAgRBwDKpVJ
+phWPcCfhWHFXYBk3iaFjTDACqgE4xEEqAx1DjZiIaAYyEMEqN4Uxaic9hyhOp0le
+btkiJi7h0fL+of/PdadGcSZRFIYUmWBdlpFKNAYRAoghziFiUPOESe7EaT0X6noa
+sYCGpK1lkgg2WAb35uo18kfgxpjOHTGP8ojlRlP6764Sju3ahr1RCKKum0iGPIDb
+mPAcm7ke/sMK61aciWkKRwN3kpYdl0JQKA3X8uAwSACWMSFKmcS3JCyHhy1PoaiY
+ALG8d3iDQBphnULVwAbWFU1RoIxNpiliU4PEBKpJgrKBKJVlBRsAM5GjDEKKgwgS
+1TA5kLz2NsVtDy4KpREBTVqROHVTDpe2jtvln17g8+f5CsfkeR/NN66o5O/vK74z
+9mf5zp7M9L1n10esutPd7Z+D9uolk+uG5h3tXHzh3KyjMbZtd35Ppe1fN9SWTS3+
+0rxig9aSTgwX1MzPfjpS6vtUNPNN9dlbz7bXB1a+u7f8QfXjkQfZ9rZc38XNI+qx
+FtD2lDV2LVQ/gPu3K01/X+mMrsGXZXsyFf2rO94uCdxMD/YMZwurD3a86J1T3DQw
+/PO90bomkynuWn41V1vV0d85mKxee2h27/Pz81u33L6bXvXsxEP7xw/8uqQ/eN15
+pYxc2XF42txbVd+Xdi67VlFVEMqf8LHSV+M0X4qlSwboKam7taI9ED25aOeB/aVT
+ult2p7/lal6uu3PjyMQAWnAZTxo68ws=
+=QLL4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/magi093
+
+==================================================================
